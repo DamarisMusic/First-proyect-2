@@ -8,3 +8,11 @@
 .navegador{
     text-align: right;
 }
+p{
+    text-align: justify;
+    text-align: left;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
