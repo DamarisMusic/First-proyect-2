@@ -14,14 +14,24 @@
 <body>
     <div class="navbar navbar-expand-sm  justify-contend-end bg-dark navbar-dark">
         <ul class="navbar-nav">
+            <li class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenúButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menú
+                </button>
+            </li>
+        </ul>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
             <li class="nav-item">
-                <a class="nav-link" href="#inicio">Inicio</a>
+                <a id="inicio" class="nav-link" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
                 <a id="navegador" class="nav-link" aria-current="page" href="https://tiendadeempanadas.com.ar/categoria-producto/empanadas/">Más información</a>
             </li>
-        
-        </ul>
+           
     </div>
     <h1 id="inicio" class="bg-warning">Empanadas:</h1>
     <div class="row border m-2">
