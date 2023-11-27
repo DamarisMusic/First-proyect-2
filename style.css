@@ -17,7 +17,9 @@ img{
     width: 300px;
     height: 300px;
 }
-.inicio{
+#inicio{
     color: white;
 }
-
+#navegador{
+    color: aliceblue;
+}
